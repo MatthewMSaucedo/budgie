@@ -6,6 +6,9 @@ authors = ["MattSaucedo <mattsauc@3c22fb7d5143.ant.amazon.com>"]
 
 [tool.poetry.dependencies]
 python = "^3.9"
+google-api-python-client = "^2.58.0"
+google-auth-httplib2 = "^0.1.0"
+google-auth-oauthlib = "^0.5.2"
 
 [tool.poetry.dev-dependencies]
 pytest = "^5.2"
