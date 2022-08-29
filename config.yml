@@ -1,0 +1,30 @@
+google_sheets:
+  secret: ""
+  user: ""
+
+budget:
+  categories:
+    # put your catergories here
+    - entertainment:
+        - soft_max: 0
+        - hard_max: 0
+    - drinks:
+        - soft_max: 0
+        - hard_max: 0
+    - food:
+        - groceries:
+          - soft_max: 0
+          - hard_max: 0
+        - out:
+          - soft_max: 0
+          - hard_max: 0
+        - delivery:
+          - soft_max: 0
+          - hard_max: 0
+    - rideshare:
+        - soft_max: 0
+        - hard_max: 0
+  banking:
+    checking: 0
+    credit: 0
+  income: 0
